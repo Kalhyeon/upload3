@@ -1,0 +1,36 @@
+* {padding: 0; margin: 0; box-sizing: border-box;
+  font-family: 'Gowun Batang', serif;}
+#page {width: 1000px; margin: 0 auto;}
+header {display: flex; justify-content: space-between; align-items: center;
+  padding: 0 10px; margin-top:20px;}
+header h1 {letter-spacing: 0.5em;}
+#search input {width: 300px; margin-left: 20px; margin-right: 5px; border: none;}
+#search {width: 350px; border: 1px solid lightgray; height: 30px; display: flex;
+  align-items: center; border-radius: 20px;}
+#search input:focus {outline: none;}
+#menu i {margin: 0 5px;}
+#menu i:hover {cursor: pointer;}
+nav {height: 50px; display: flex; justify-content: center; align-items: center;
+  margin: 10px 0;}
+.nav_ul {padding: 0; margin: 0;}
+nav {background-color: black;}
+nav ul {list-style: none; display: flex;}
+nav ul li {background-color: black; width: 120px; height: 50px;}
+nav ul li a {display: block; color: white; text-decoration: none; text-align:
+  center; height: 100%; padding-top: 12px;}
+nav ul li:hover {border-bottom:5px solid lightseagreen;
+  background-color: #444;}
+nav ul li:hover a {color:#aaa}
+main {display: flex; background-color: #eee;}
+section {width: 800px; min-height: 800px; background-color: white;}
+aside {width: 100px; height:200px; background-color: skyblue;}
+section div h1 {text-align: center;}
+#slider {width: 780px; margin-bottom: 15px;}
+#div button {width: 200px; margin: 0 5px; border-color: skyblue;
+  color: skyblue;}
+#div button:hover {background-color: lightblue; color: white;
+  border-color: blue;}
+section {display: flex; justify-content: center;}
+#div div{display: flex; justify-content: center;}
+footer {height: 50px; border : 1px solid lightblue; line-height: 50px;
+  text-align: center;}
